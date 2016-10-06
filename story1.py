@@ -6,7 +6,7 @@ def story():
     temperature1 = getNumber("Enter a Number: ")
     
     text = ""
-    text += "One day I went to the " + location1
+    text += "One day Kent Heckel, the famous YouTuber was going for a walk in " + location1
     text += ". It was like a " + temperature1
     text += " out."    
     return text
