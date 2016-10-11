@@ -18,7 +18,6 @@ def madlibs():
         elif option == "2":
             print story2.story()
             raw_input()
-    print "I HATE YOU"
     
 
     

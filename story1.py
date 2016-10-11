@@ -17,4 +17,10 @@ def story():
     text += """. He is going to """ + action1
     text += """.""" 
     text += "Out of nowhere, Elijah the Magical " +adjective1 
+    text +=
+    
+    
+    
+    
+    
     return text
