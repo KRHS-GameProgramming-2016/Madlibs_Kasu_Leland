@@ -28,3 +28,73 @@ def menu():
     screen += "*                               *\n"
     screen += "*********************************\n"
     return screen
+
+def memesplash():
+    screen = ""
+    screen += "*********************************\n"
+    screen += "*                               *\n"
+    screen += "*           Welcome             *\n"
+    screen += "*            to the             *\n"
+    screen += "*          MEME MENU            *\n"
+    screen += "*                               *\n"
+    screen += "*                               *\n"
+    screen += "*       by KASU & LELAND is dum *\n"
+    screen += "*                               *\n"
+    screen += "*       press enter to continue *\n"
+    screen += "*********************************\n"
+    return screen
+
+def memesplash():
+    screen = ""
+    screen += "*********************************\n"
+    screen += "*                               *\n"
+    screen += "*         Select a meme         *\n"
+    screen += "*                               *\n"
+    screen += "*                               *\n"
+    screen += "*           Meme 1 (Press 1)    *\n"
+    screen += "*           Meme 2 (Press 2)    *\n"
+    screen += "*           Meme 3 (Press 3)    *\n"
+    screen += "*                               *\n"
+    screen += "*       press enter to continue *\n"
+    screen += "*********************************\n"
+    return screen
+    
+def meme1():
+    ░░░░░░░░░░▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░░░░░░░░░░░░
+    ░░░░░░▄▄█▀▀░░░░░░░░░░░░▀██▄▄▄▄▄░░░░░░
+    ░░░░▄█▀░▄▄█▀▀▀▀░░░░░░░░░░░░▄█████▄░░░
+    ░░▄█▀▄▄█▀░▄▀▀▀▀█▄░░░░░░░░▄▀▀░░▄██▄░░░
+    ░▄▀░▀▀▀░▄▀░░░░░░░█░░░░░░█░░░░░▀▀░█░░░
+    ░█░░░░░░█░▄▄▄░░░░█▄░░░░░█░░░░░░░▄█▄░░
+    █▀░░░░░▀█▄▀█▀░░░░█░░░░░░▀▄▄▄▄▄▄██▄█░░
+    █░░░░░░░░▀▀▄▄▄▄▄▀░░░░░░░░░▄▀░░▄▄░▀█▄░
+    █░░░░░░░░░░░░░░░░░░░░▄░▀▀█▀░█▀░▀▀▄░█░
+    █░░░░░░░░░░░░░░░░░░░░░░░█▀░█▀▀▀▀██░▀█
+    █░░░░░░░░░░░░░░░░░░░░░░░█░▄█▀▀▀▀▀███░
+    █░░░░░░░░░░░░░░░░░░░░░░░█░██░░░░░█░█░
+    ▀█░░░░░░░░░░░░░░░░░░░░░░████░░░░█▀█▀░
+    ░█░░░░░░░░░░░░░░░░░░░░░░███▀░░░░█░█░░
+    ░░█░░░░░░░░░░░░░░░░░░░░░█░█░░░░░█░░█░
+    ░░▀▄░░░░░░░░░░░░░░░░░░░▄▀░█▀▀▀▄░▀▄░█░
+    ░░░▀▄░░░░░░░░░░░░▄▄░░░░█░░█▄▄▄▄█▄█░█░
+    ░░░░▀▄░░░░░░░░░░░░░▀▀▄░█░░█▄██▀▄█░░█░
+    ░░░░░▀█░░░░░░░░░░░░░░░▀█░░█▄░░▀█▀░▄▀░
+
+def hacks():
+    print mememenu()
+    raw_input()
+    end = False
+    while not end:
+        print menu()
+        option = getMenuOption()
+        if option == "q":
+            end = True
+        elif option == "1":
+            print meme1()
+            raw_input()
+        elif option == "2":
+            print meme2()
+            raw_input()
+        elif option == "3":
+            print meme3()
+            raw_input()
