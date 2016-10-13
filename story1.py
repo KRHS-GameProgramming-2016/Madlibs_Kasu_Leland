@@ -15,9 +15,7 @@ def story():
     text += "Before he could blink, Kasu add been dragged away by a little " + monster1 
     text += """. He started to yell, "Help me! He is taking me to his """ + location2
     text += """. He is going to """ + action1
-    text += """.""" 
-    text += "Out of nowhere, Elijah the Magical " +adjective1 
-    text +=
+    text += ". Out of nowhere, Elijah the Magical " +adjective1 
     
     
     
