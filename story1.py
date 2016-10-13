@@ -19,8 +19,8 @@ def story():
     text += "One day Kent Heckel, the famous YouTuber was going for a walk in " + location1
     text += ". While he was there, he saw Kasu sucking a " + object1
     text += " vigurously."    
-    text += " Before he could blink, Kasu add been dragged away by a little " + monster1 
-    text += """. He started to yell, "Help me! He is taking me to his """ + location2
+    text += " Before he could blink, Kasu had been dragged away by a little " + monster1 
+    text += """. He started to yell, "Help me! He is taking me to """ + location2
     text += """. He is going to """ + action1
     text += "me. Out of nowhere, Elijah the Magical " + noun1 
     text += " jumped out of the big " + adjective2
