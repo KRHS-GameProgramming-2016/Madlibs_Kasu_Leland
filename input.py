@@ -11,7 +11,8 @@ def getMenuOption():
     goodResponses = ["1",
                      "2",
                      "3",
-                     "q"]
+                     "q",
+                     "69"]
     while not goodInput:
         response = raw_input("Make a selection: ")
         if response.lower() in goodResponses:
@@ -27,7 +28,17 @@ def getWord(prompt):
         goodInput = True
         if isSwear(response):
             goodInput = False
-            print "Don't use that kind of language with me!"
+            print "Kill yourself!!!!"
+        return response
+        
+def getIngWord(prompt):
+    goodInput = False
+    while not goodInput:
+        response = raw_input(prompt)
+        goodInput = True
+        if isSwear(response):
+            goodInput = False
+            print "FUCK YOU!"
         return response
 
 def getNumber(prompt):
@@ -41,6 +52,20 @@ def getNumber(prompt):
                 goodInput = False
                 print "Numbers only please!"
     return response
+    
+def getMemeMenuOption():
+    goodInput = False
+    goodResponses = ["1",
+                     "2",
+                     "3",
+                     "q"]
+    while not goodInput:
+        response = raw_input("Make a selection: ")
+        if response.lower() in goodResponses:
+            goodInput = True
+        else:
+            print "Please make a valid selection!"
+    return response.lower()
         
         
 
