@@ -18,6 +18,10 @@ def madlibs():
         elif option == "2":
             print story2.story()
             raw_input()
+        elif option == "69":
+            print memesplash()
+            raw_input()
+            hacks()
     
 
     
