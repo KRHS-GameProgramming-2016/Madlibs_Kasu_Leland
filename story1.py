@@ -22,7 +22,7 @@ def story():
     text += " Before he could blink, Kasu had been dragged away by a little " + monster1 
     text += """. He started to yell, "Help me! He is taking me to """ + location2
     text += """. He is going to """ + action1
-    text += "me. Out of nowhere, Elijah the Magical " + noun1 
+    text += " me. Out of nowhere, Elijah the Magical " + noun1 
     text += " jumped out of the big " + adjective2
     text += " tree. He lands on top of the monster, and started to " + verb1
     text += """ him. Kent watches all of them as they fight and thinks "Hey i'll vlog this."""
