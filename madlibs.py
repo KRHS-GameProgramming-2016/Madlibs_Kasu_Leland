@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from splash import *
 from input import *
 import story1
