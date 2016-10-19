@@ -49,14 +49,29 @@ def memesplash():
     screen = ""
     screen += "*********************************\n"
     screen += "*                               *\n"
+    screen += "*      Dont let your memes      *\n"
+    screen += "*           BE MEMES            *\n"
+    screen += "*                               *\n"
+    screen += "*                               *\n"
+    screen += "*                               *\n"
+    screen += "*                               *\n"
+    screen += "*                               *\n"
+    screen += "*    press enter to continue    *\n"
+    screen += "*********************************\n"
+    return screen
+    
+def mememenu():
+    screen = ""
+    screen += "*********************************\n"
+    screen += "*                               *\n"
     screen += "*         Select a meme         *\n"
     screen += "*                               *\n"
     screen += "*                               *\n"
-    screen += "*           Meme 1 (Press 1)    *\n"
-    screen += "*           Meme 2 (Press 2)    *\n"
-    screen += "*           Meme 3 (Press 3)    *\n"
+    screen += "*        Meme 1 (Press 1)       *\n"
+    screen += "*        Meme 2 (Press 2)       *\n"
+    screen += "*        Meme 3 (Press 3)       *\n"
     screen += "*                               *\n"
-    screen += "*       press enter to continue *\n"
+    screen += "*                               *\n"
     screen += "*********************************\n"
     return screen
     
@@ -91,8 +106,8 @@ def hacks():
     raw_input()
     end = False
     while not end:
-        print menu()
-        option = getMenuOption()
+        print mememenu()
+        option = getMemeMenuOption()
         if option == "q":
             end = True
         elif option == "1":
