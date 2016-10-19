@@ -71,9 +71,19 @@ def meme1():
         
 def meme2():
     if os.name == "nt":
-        for i in range(99)
-            if i <= 9
-            0+str(i) #HERE HERE HERE HRQJEWHGLWJREGL:WJRHNGW
+        for i in range(99):
+            if i <= 9:
+                num=0+str(i)
+            else:
+                num=str(i)
+            os.system("color" + num)
+    print("""
+    
+    
+    
+    
+    
+    """)
             
 
 def hacks():
