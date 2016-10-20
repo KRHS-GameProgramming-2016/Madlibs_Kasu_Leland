@@ -1,5 +1,5 @@
 def isSwear(word):
-    swearList = ["poop",
+    swearList = ["pooop",
                  "pee"]
     if word in swearList:
         return True

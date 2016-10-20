@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os
+if os.name == "nt":
+    import msvcrt
 from input import *
 
 def splash():
@@ -80,42 +82,135 @@ def mememenu():
     return screen
     
 def meme1():
-    if os.name == "nt":
-        os.system("color 02")
-        """
-    
-    """
-    if os.name == "nt":
-        os.system("color 07")
-        
-def meme2():
     print("""
-░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄
-░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄
-░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█
-░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░█
-░▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░█
-█▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒█
-█▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█
-░█▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█
-░░█░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█
-░░░█░░██░░▀█▄▄▄█▄▄█▄████░█
-░░░░█░░░▀▀▄░█░░░█░███████░█
-░░░░░▀▄░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█
-░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░█
-░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█
-░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█
+
+.
+
+
+XXXXXXXXXXX,            /XXXXXXXXYXXXXXXXXXXXXXXX/
+XXXXXXXXXXXX.          *XXXXXXXXXXXXXXXXXXXXXXXXI
+XXXXXXXXXXXXXXXX       /XXXXXXXXXXXXF**YXXXXXF-
+XXXXXXXXXXXXXXXXXXX    *XXXXXXXXXXXT         *XXL
+XXXXXXXXXXXXXXXXXXX)  /XXXXXXXXXXXX     MMMM   VXL
+XXXXXXXXXXXXXXXXXXX/ JXXXXXXXXXXXX     X    Y   YXL
+XXXXXXXXXXXXXXXXXXXXXXXXXX*--*XXX                VXL
+(XXXXXXXXXXXXXXXXXXXXXXXF        *                 VXL
+(XXXXXXXXXXXXXXXXXXXXX  NM           $$$*         VXX
+ (XXXXXXXXXXXXXXXXXXX   Y            $    $$        XXL
+  TXXXXXXXXXXXX/AXXXY   7    $$      R      $       )XI
+   -XXXXXXXXXX/ XXXXI       $ $$     $      $      YXX
+     *XXXXX*    XXXX(      $     $     $   ,*$      IXX
+                TXXXX      $      $     $.$$$$      /XX)
+                XXXXX       $   *$$$      $$$*      XYTTX=-.
+                 XXXX(       $$$$$$$   XXXX-,      /        X
+                  XXXXL        *$$$* XX  .,. Y               X
+                   XXXXL           XX   XXXXX        XXX      )
+                    XXXXL,.      XX    XXXXXX         X X     I
+                     *XY                XXXX         X       /
+                     X                              X        X
+                    X                              X         X
+                   X                              X         X
+                  Y      XX*.                   X         X
+                  (     X    X*.              .*V        .X
+                  I             TX=XXXXXXXX=*XXX      X X
+                   XX              TL.   T   )XV     X X
+                     XX               X.      X/     XX
+                       XX               XX.  .X      X
+                         TXXXXXX*,(        TT        X
+                                  XX               X
+                                    XXX           XX
+                                       XXX    XXXX
+                                          XXXX
 """)
     if os.name == "nt":
-        for i in range(99):
-            if i <= 9:
-                num="0"+str(i)
-            else:
-                num=str(i)
-            os.system("color " + num)
-            
-meme2()
+        end = False
+        while not end:
+            for i in range(99):
+                if i <= 9:
+                    num="0"+str(i)
+                else:
+                    num=str(i)
+                os.system("color " + num)
+                if msvcrt.kbhit():
+                    os.system("color 07")
+                    end = True
+                    break;
 
+
+
+def meme2():
+    print("""
+       ,'``.._   ,'``.
+      :,--._:)\\,:,._,.:       All Glory to
+      :`--,''   :`...';\\      the HYPNO PEPE!
+       `,'       `---'  `.
+       /                 :
+      /                   \\
+    ,'                     :\\.___,-.
+   `...,---'``````-..._    |:       \\
+     (                 )   ;:    )   \\  _,-.
+      `.              (   //          `'    \\
+       :               `.//  )      )     , ;
+     ,-|`.            _,'/       )    ) ,' ,'
+    (  :`.`-..____..=:.-':     .     _,' ,'
+     `,'\\ ``--....-)='    `._,  \\  ,') _ '``._
+  _.-/ _ `.       (_)      /     )' ; / \\ \\`-.'
+ `--(   `-:`.     `' ___..'  _,-'   |/   `.)
+     `-. `.`.``-----``--,  .'
+       |/`.\\`'        ,','); SSt
+           `         (/  (/
+""")
+    if os.name == "nt":
+        end = False
+        while not end:
+            for i in range(99):
+                if i <= 9:
+                    num="0"+str(i)
+                else:
+                    num=str(i)
+                os.system("color " + num)
+                if msvcrt.kbhit():
+                    os.system("color 07")
+                    end = True
+                    break;
+def meme3():
+    print("""
+      .--..--..--..--..--..--.
+    .' \\  (`._   (_)     _   \\
+  .'    |  '._)         (_)  |
+  \\ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \\  |
+  \\     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \\ (_) | o         -` .-`  |
+    |    \\   |`-._ _ _ _ _\\ /
+    \\    |   |  `. |_||_|   |
+    | o  |    \\_      \\     |     -.   .-.
+    |.-.  \\     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\\_____|    `-.'
+   .'   ).| '=' '='\\/ '=' |
+   `._.`  '---------------'
+           //___\\   //___\\
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+""")
+    if os.name == "nt":
+        end = False
+        while not end:
+            for i in range(99):
+                if i <= 9:
+                    num="0"+str(i)
+                else:
+                    num=str(i)
+                os.system("color " + num)
+                if msvcrt.kbhit():
+                    os.system("color 07")
+                    end = True
+                    break;
+
+meme3()
 def hacks():
     print mememenu()
     raw_input()
