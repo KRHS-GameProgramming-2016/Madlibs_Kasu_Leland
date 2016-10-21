@@ -45,7 +45,7 @@ def memesplash():
     screen += "*          MEME MENU            *\n"
     screen += "*                               *\n"
     screen += "*                               *\n"
-    screen += "*       by KASU & LELAND is dum *\n"
+    screen += "*       by KASU & LELAND        *\n"
     screen += "*                               *\n"
     screen += "*       press enter to continue *\n"
     screen += "*********************************\n"
