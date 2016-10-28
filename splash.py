@@ -210,7 +210,7 @@ def meme3():
                     end = True
                     break;
 
-meme3()
+
 def hacks():
     print mememenu()
     raw_input()
